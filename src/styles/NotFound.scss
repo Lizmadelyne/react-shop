@@ -1,0 +1,31 @@
+@import 'vars';
+
+.not-found-container{
+margin-left: 30%;
+display: block;
+justify-content: center;
+
+}
+.number-error{
+    color: var(--hospital-green);
+    font-size: 250px;
+    margin: 0;
+}
+.message{
+    color: var(--very-light-pink);
+    font-size: 40px;
+    margin-left:-10%;
+}
+.not-found-btn{
+    background-color: var(--hospital-green);
+    color:--very-light-pink;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    padding: 16px;
+    font-size: 24px;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 8%;
+    
+}
